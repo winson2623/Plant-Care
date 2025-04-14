@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+<<<<<<< HEAD
   <head>
     <title>LA TV Shows | Home</title>
     <meta name="description" content="A Catalog of Shows Set in Los Angeles" />
@@ -28,4 +29,76 @@
       <button onclick="removeLastCard();">Remove A Card!</button>
     </div>
   </body>
+=======
+<head>
+    <title>Plant Care | Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="A Catalog of Plants and Care Instructions" />
+    <link rel="stylesheet" href="style.css" />
+    <script type="text/javascript" src="scripts.js"></script>
+</head>
+
+<body>
+    <h1>Plant Care Catalog</h1>
+
+    <div class="controls">
+        <div class="filter-sort-group">
+            <div class="filter-group">
+                <label for="light">Filter by Light:</label>
+                <select id="light">
+                    <option>All</option>
+                    <option>Low Light</option>
+                    <option>Medium Light</option>
+                    <option>Bright Light</option>
+                </select>
+            </div>
+
+
+            <div class="filter-group">
+                <label for="humidity">Filter by Humidity:</label>
+                <select id="humidity">
+                    <option value="all">All</option>
+                    <option value="low">Low (0–30%)</option>
+                    <option value="medium">Medium (30–60%)</option>
+                    <option value="high">High (60–100%)</option>
+                </select>
+            </div>
+                
+
+                <div class="sort-group">
+                    <label for="sort">Sort by:</label>
+                    <select id="sort">
+                        <option>Name</option>
+                        <option>Size</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="search-group">
+                <label for="search">Search by plant name:</label>
+                <input type="text" id="search" placeholder="e.g. Boston Fern" />
+            </div>
+        </div>
+
+    <div class="plant-list"></div>
+
+    <template class="plant-template">
+        <div class="plant-item">
+            <div class="plant-image">
+                <img src="" alt="" class="normal" />
+                <img src="" alt="" class="zoomed" />  <!--hover mouse over picture to zoom-->
+            </div>
+            <div class="plant-info">
+                <h2></h2>
+                <p></p>
+                <p></p>
+                <p></p>
+                <p></p>
+                <p></p>
+            </div>
+        </div>
+    </template>
+
+</body>
+>>>>>>> e5087b4 (project finished)
 </html>
